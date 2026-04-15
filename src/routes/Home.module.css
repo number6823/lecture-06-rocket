@@ -1,0 +1,37 @@
+.loading {
+    padding: 100px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #999;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:  20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #111;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding-left: 50px;
+    background-color: #c7b4b463;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
