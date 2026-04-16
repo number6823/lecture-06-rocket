@@ -74,3 +74,33 @@
     background에 똑같이 주고, 추가 속성을 제시함
      */
 }
+
+
+.description {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.specItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    color: #64748b;
+    font-weight: 600;
+}
+
+.value {
+    color: #fff;
+}
